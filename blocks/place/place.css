@@ -1,7 +1,6 @@
 .place {
-  /*border: 1px solid white;*/
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 460px 1fr;
   row-gap: 48px;
   column-gap: 40px;
   margin: 0 auto 80px;
