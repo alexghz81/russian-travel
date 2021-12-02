@@ -1,12 +1,26 @@
 .place {
   display: grid;
-  grid-template-columns: 460px 1fr;
-  row-gap: 48px;
-  column-gap: 40px;
-  margin: 0 auto 80px;
   padding: 0;
 }
 
 .place:last-child {
   margin-bottom: 0;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place {
+    grid-template-columns: 440px 1fr;
+    row-gap: 48px;
+    column-gap: 32px;
+    margin: 0 auto 80px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place {
+    grid-template-columns: 460px 1fr;
+    row-gap: 48px;
+    column-gap: 40px;
+    margin: 0 auto 80px;
+  }
 }
