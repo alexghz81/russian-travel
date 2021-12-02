@@ -1,0 +1,8 @@
+.place__paragraph {
+  /*border: 1px solid white;*/
+  font-family: Inter, Arial,sans-serif;
+  font-size: 18px;
+  line-height: 29px;
+  font-weight: normal;
+  margin: 0 auto 26px;
+}
