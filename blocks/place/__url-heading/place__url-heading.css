@@ -1,4 +1,6 @@
 .place__url-heading {
+  margin-block-start: 0;
+  margin-block-end: 0;
   color: #aaa;
   font-family: Inter, Arial,sans-serif;
   font-size: 12px;

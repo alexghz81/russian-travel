@@ -1,7 +1,18 @@
 .footer__link-list {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
   padding: 0;
   margin: 0;
   list-style: none;
   display: flex;
   gap: 18px;
+}
+
+@media screen and (max-width: 767px){
+  .footer__link-list {
+  flex-direction: column;
+    padding-left: 16px;
+    gap: 32px;
+  }
 }
